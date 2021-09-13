@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;900&display=swap');
+
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+
+    overflow-x: scroll;
+}
+
+.nav {
+    height: 35%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow-x: scroll;
+    padding-top: 70px;
+    transition: 0.3s;
+}
+
+.nav #cross {
+    display: block;
+    font-size: 36px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+
+.nav .close{
+    position: absolute;
+    margin-left: 15px;
+    top: 10px;
+}
+
+.nav a {
+    font-size: 27px;
+    margin-left: 15px;
+    color: #000;
+}
+
+.nav a:hover {
+    color: #6495ED;
+
+}
+
+
+#open {
+    color: #000;
+    font-size: 36px;
+    position: fixed;
+    left: 0;
+    overflow-x: scroll;
+    margin-left: 10px;
+}
+
+.table{
+    margin-left: -30px;
+}
+
+.container #heading {
+    justify-content: space-between;
+}
+
+.container #logout{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    float: right;
+    margin-right: -150px;
+    font-size: 15px;
+    z-index: 1;
+
+}
+
+#title{
+    font-weight: 900;
+    font-size: 40px;
+    margin-left: -25px;
+}
+
+#badge {
+    margin-top: 12px;
+}
+
+#student {
+    color:rgb(158, 150, 44);
+}
+
+#staff {
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}

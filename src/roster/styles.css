@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    overflow-x: scroll;
+}
+
+
+.navbar {
+    top: -25px;
+}
+
+#student {
+    color:rgb(158, 150, 44);
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;900&display=swap');
+
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    overflow: scroll;
+}
+
+
+table #heading{
+    font-size: 16px;
+
+}
+
+table td{
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+
+}
+
+.btn {
+    font-size: 30px;
+}
+
+table{
+    empty-cells: show;
+}
+
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-title div{
+    padding: 10px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-title{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    order: 1;
+    margin-left: 100px;
+}
+
+.box-1{
+    order: 1;
+
+
+}
+
+.box-2{
+    order: 2;
+
+}
+
+.box-3{
+    order: 1;
+    flex-basis: 40%;
+
+}
+
+.box-4{
+    order: 2;
+    flex-basis: 40%;
+
+}
+
+.container #add{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    float: right;
+    margin-right: -150px;
+    font-size: 15px;
+}
+
+
+
+#student {
+    color:rgb(158, 150, 44);
+}
