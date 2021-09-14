@@ -94,7 +94,7 @@
     <?php endif ?>
     <div class="container-table">
     <?php
-        $mysqli = new mysqli('34.66.20.96', 'root', 'eddiecollege', 'userInfo') or die(mysqli_error($mysqli));
+        $mysqli = new mysqli('34.66.20.96', 'root', 'database password', 'userInfo') or die(mysqli_error($mysqli));
         $result = $mysqli->query("SELECT * FROM list WHERE user='$userid' AND lib = 0 ORDER BY list.rank ASC") or die($mysqli->error);
         $libresult = $mysqli->query("SELECT * FROM list WHERE user='$userid' AND lib = 1 ORDER BY list.rank ASC") or die($mysqli->error);
     ?>
@@ -377,7 +377,7 @@
         <?php endif; ?>
         </div>
       <?php
-        $mysqli = new mysqli('34.66.20.96', 'root', 'eddiecollege', 'userInfo') or die(mysqli_error($mysqli));
+        $mysqli = new mysqli('34.66.20.96', 'root', 'database password', 'userInfo') or die(mysqli_error($mysqli));
         $result = $mysqli->query("SELECT * FROM list WHERE user='$userid'") or die($mysqli->error);
       ?>
 <!--        <div class="box-searchBox">

@@ -117,7 +117,7 @@
         <?php endif; ?>
       </div>
       <?php
-        $mysqli = new mysqli('34.66.20.96', 'root', 'eddiecollege', 'userInfo') or die(mysqli_error($mysqli));
+        $mysqli = new mysqli('34.66.20.96', 'root', 'database password', 'userInfo') or die(mysqli_error($mysqli));
         $result = $mysqli->query("SELECT * FROM list WHERE user='$userid'") or die($mysqli->error);
       ?>
       <div class="row justify-content-center">

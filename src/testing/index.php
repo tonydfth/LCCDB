@@ -46,7 +46,7 @@ $mail->SMTPAuth = true;
 $mail->Username = 'notifications@lameirecollegeconsulting.com';
 
 //Password to use for SMTP authentication
-$mail->Password = 'College888!';
+$mail->Password = 'xxx';
 
 //Set who the message is to be sent from
 $mail->setFrom('notifications@lameirecollegeconsulting.com');

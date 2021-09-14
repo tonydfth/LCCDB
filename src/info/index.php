@@ -13,7 +13,7 @@
     <body>
         <?php require_once 'process.php'; ?>
         <?php
-        $mysqli = new mysqli('34.66.20.96', 'root', 'eddiecollege', 'userInfo') or die(mysqli_error($mysqli));
+        $mysqli = new mysqli('34.66.20.96', 'root', 'database password', 'userInfo') or die(mysqli_error($mysqli));
         $tasks = $mysqli->query("SELECT * FROM currenTask WHERE user='$user'") or die($mysqli->error);
         ?>
       <div class = "container">

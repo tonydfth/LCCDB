@@ -2,7 +2,7 @@
 
 session_start();
 
-$mysqli = new mysqli('34.66.20.96', 'root', 'eddiecollege', 'userInfo') or die(mysqli_error($mysqli));
+$mysqli = new mysqli('34.66.20.96', 'root', 'database password', 'userInfo') or die(mysqli_error($mysqli));
 
 
 if (isset($_GET['finalizeAll'])){

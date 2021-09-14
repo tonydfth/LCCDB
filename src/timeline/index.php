@@ -39,7 +39,7 @@
       </div> 
     <?php endif ?>
       <?php
-        $mysqli = new mysqli('34.66.20.96', 'root', 'eddiecollege', 'userInfo') or die(mysqli_error($mysqli));
+        $mysqli = new mysqli('34.66.20.96', 'root', 'database password', 'userInfo') or die(mysqli_error($mysqli));
         $result = $mysqli->query("SELECT * FROM timeline WHERE user='$userid' ORDER BY timeline.deadline ASC") or die($mysqli->error);
       ?>
         <div class="container">

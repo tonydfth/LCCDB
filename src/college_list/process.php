@@ -2,7 +2,7 @@
 
 session_start();
 
-$mysqli = new mysqli('34.66.20.96', 'root', 'eddiecollege', 'userInfo') or die(mysqli_error($mysqli));
+$mysqli = new mysqli('34.66.20.96', 'root', 'database password', 'userInfo') or die(mysqli_error($mysqli));
 
 $id = 0;
 $update = false;
@@ -245,7 +245,7 @@ if (isset($_POST['update'])){
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->SMTPAuth = true;
         $mail->Username = 'notifications@lameirecollegeconsulting.com';
-        $mail->Password = 'College888!';
+        $mail->Password = 'xxx';
         $mail->setFrom('notifications@lameirecollegeconsulting.com');
         $mail->addAddress('eddie@lameirecollegeconsulting.com');
         $mail->addAddress('shirley@lameirecollegeconsulting.com');
@@ -312,7 +312,7 @@ if (isset($_POST['finalize'])){
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->SMTPAuth = true;
             $mail->Username = 'notifications@lameirecollegeconsulting.com';
-            $mail->Password = 'College888!';
+            $mail->Password = 'xxx';
             $mail->setFrom('notifications@lameirecollegeconsulting.com');
             $mail->addAddress('eddie@lameirecollegeconsulting.com');
             $mail->addAddress('shirley@lameirecollegeconsulting.com');

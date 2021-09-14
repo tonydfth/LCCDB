@@ -16,7 +16,7 @@
   // ---- Connect to the database
   $DB_SERVER = "34.66.20.96";
   $DB_USER = "root";
-  $DB_PASS = "eddiecollege";
+  $DB_PASS = "database password";
   $DB_NAME = "userInfo";
   $mysqli = new mysqli($DB_SERVER, $DB_USER, $DB_PASS, $DB_NAME);
 

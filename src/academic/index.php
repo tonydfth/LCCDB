@@ -41,7 +41,7 @@
     <?php endif ?>
     <div class="container-title">
     <?php
-        $mysqli = new mysqli('34.66.20.96', 'root', 'eddiecollege', 'userInfo') or die(mysqli_error($mysqli));
+        $mysqli = new mysqli('34.66.20.96', 'root', 'database password', 'userInfo') or die(mysqli_error($mysqli));
         $resultA = $mysqli->query("SELECT * FROM academic WHERE year = '9' AND user = '$userid'") or die($mysqli->error);
         $resultB = $mysqli->query("SELECT * FROM academic WHERE year = '10'AND user = '$userid'") or die($mysqli->error);
         $resultC = $mysqli->query("SELECT * FROM academic WHERE year = '11'AND user = '$userid'") or die($mysqli->error);
